@@ -1,77 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ordena tu comida favorita</title>
-
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="index.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ENSALADA DE FRUTA </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="contenedor">
-        <header class="header">
-            <div class="logo">
-                <p>🍹 ensala de frutas </p>
-            </div>
-            
-            <nav class="menu">
-                <ul class="navegacion">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">producto</a></li>
-                    <li><a href="#">contacto</a></li>                  
-                </ul>
-            </nav>
-        </header>
-        <aside class="presentacion">
-            <div class="informacion">
-                <h1>Descubre nuestros deliciosos frutas</h1>
-                <div>
-                    <p>  nuestros deliciosos platos, preparados con frutas frescos</p>
-                </div>
-               
-            </div>
-             </div>
-            <div class="presentacion--imagen">
-                <img src="Imagenes/fruta1.png" alt="Imagen presentacion">
-            </div>
-        </aside>
-         <main class="comida ">
-            <h2 class="comida--titulo">Platos populares </h2>
-            <div class="platos">
-                <article class="plato">
-                    <img src="Imagenes/fruta2.png" alt="FRUTA">
-                    <h1>FRUTAS </h1>
-                    <p>  nuestros deliciosos platos, preparados con frutas frescos</p>
-                    <div>class="plato--info"
-                        <p>25Bs</p>
-                        <button type="button">+</button>
-                    </div>
-                </article>
-                <article class="plato">
-                    <img src="Imagenes/fruta3.png" alt="FRUTA">
-                    <h1>FRUTA</h1>
-                    <p>  nuestros deliciosos platos, preparados con frutas frescos</p>
-                    <div>class="plato--info"
-                        <p>30 Bs</p>
-                        <button type="button">+</button>
-                    </div>
-                </article>
-                <article class="plato">
-                    <img src="Imagenes/fruta4.png" alt="frutA">
-                    <h1>-FRUTA </h1>
-                    <p>  nuestros deliciosos platos, preparados con frutas frescos</p>
-                    <div>class="plato--info"
-                        <p>40 Bs</p>
-                        <button type="button">+</button>
-                    </div>
-                </article>
-               
 
+<header>
+    <h1>ENSALADA DE FRUTA</h1>
 
-            </div>
-         </main>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main class="contenedor">
+
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Disfruta , postres y bebidas preparadas al momento.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Productos</h2>
+
+        <ul>
+            <li>Café Americano - Bs 12</li>
+            <li>Capuchino - Bs 18</li>
+            <li>Torta de Chocolate - Bs 20</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+
+        <form id="formulario">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+        </form>
+
+        <button id="boton">Enviar</button>
+
+        <p id="mensaje" class="oculto"></p>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
 
 </body>
 </html>
