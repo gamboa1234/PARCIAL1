@@ -1,81 +1,89 @@
 body{
-    margin:0;
-    font-family: Arial, sans-serif;
-    line-height:1.6;
-    background:#f4f4f4;
-    color:#333;
+ margin: 0;
+ font-family:Arial, sans-serif;
+ line-height: 1.6 ;
+ background:#964b4b ;
+ color:aquamarine;
+
 }
 
 header{
-    background:#2c3e50;
-    color:white;
-    padding:20px;
-}
+    background: #0e66bf;
+    color: rgb(240, 230, 230);
+    padding:100px;
 
+}
+ 
 nav{
-    display:flex;
-    gap:20px;
-    margin-top:10px;
+
+    display: flex;
+    gap: 20px;
+    padding-top:10px;
 }
 
 nav a{
     text-decoration:none;
-    color:white;
+    color:rgb(215, 36, 162)
 }
-
 .contenedor{
-    max-width:900px;
-    margin:20px auto;
+
+    max-width:1400px;
+    margin:10px auto;
 }
 
 section{
-    background:white;
+    background: rgb(95, 8, 8);
     padding:20px;
-    border:1px solid #ccc;
+    border:1px solid #83d4ee;
     border-radius:10px;
-    margin-bottom:20px;
-}
+    margin-bottom:10px;
 
+}
 input,
 textarea{
-    width:100%;
-    padding:10px;
-    margin-bottom:10px;
-    box-sizing:border-box;
-}
 
+    width: 100%;
+    padding:10px;
+    margin-bottom:20px;
+    box-sizing:border-box;
+
+
+}
+ 
 button{
+
     padding:10px 20px;
-    background:#3498db;
-    color:white;
+    background-color: #15365e;
+    color: beige;
     border:none;
     cursor:pointer;
-}
-
-button:hover{
-    background:#2980b9;
+   
 }
 
 #mensaje{
-    margin-top:15px;
-    color:green;
-    font-weight:bold;
+     margin-top:15px;
+     color: green;
+     font-weight: bold;
 }
 
 .oculto{
     display:none;
 }
-
+    
 footer{
     text-align:center;
     padding:20px;
-    background:#2c3e50;
-    color:white;
+    color:rgb(25, 5, 19);
 }
-
-@media (max-width:600px){
+@media(max-width:600px){
     nav{
         flex-direction:column;
         gap:10px;
     }
 }
+
+
+
+
+
+
